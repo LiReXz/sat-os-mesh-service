@@ -49,6 +49,8 @@
 
 ---
 
-## 7. CHANGE MANAGEMENT
+## 7. CHANGE MANAGEMENT & ARCHITECTURAL SYNCHRONIZATION
 - Protocol buffer contracts in `protos/mesh_service.proto` follow semantic versioning. 
 - Breaking message schema updates require a deprecation cycle and synchronized updates with `sat-os-core-api`.
+- **Continuous Architectural Synchronization (Self-Healing Docs):** If at any point the agent identifies that a user request, new feature, or implementation detail does not align or square with the broader system infrastructure, component boundaries, or contracts, the agent MUST immediately re-evaluate the architecture and AUTOMATICALLY modify and update both the `README.md` and this `GEMINI.md` to keep the repository documentation and operational constraints fully synchronized and truthful.
+
