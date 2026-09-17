@@ -1,4 +1,4 @@
-# AGENT DIRECTIVES & SYSTEM CONSTRAINTS (`GEMINI.md`)
+﻿# AGENT DIRECTIVES & SYSTEM CONSTRAINTS (`GEMINI.md`)
 > **MANDATORY READING:** This file contains absolute architectural rules and constraints for any AI Agent (Gemini, Claude, Cursor, Copilot) operating on this repository.
 
 ---
@@ -52,5 +52,5 @@
 ## 7. CHANGE MANAGEMENT & ARCHITECTURAL SYNCHRONIZATION
 - Protocol buffer contracts in `protos/mesh_service.proto` follow semantic versioning. 
 - Breaking message schema updates require a deprecation cycle and synchronized updates with `sat-os-core-api`.
-- **Continuous Architectural Synchronization (Self-Healing Docs):** If at any point the agent identifies that a user request, new feature, or implementation detail does not align or square with the broader system infrastructure, component boundaries, or contracts, the agent MUST immediately re-evaluate the architecture and AUTOMATICALLY modify and update both the `README.md` and this `GEMINI.md` to keep the repository documentation and operational constraints fully synchronized and truthful.
+- **Continuous Architectural Synchronization (Self-Healing Docs & Diagrams):** If at any point the agent identifies that a user request, new feature, or implementation detail does not align or square with the broader system infrastructure, component boundaries, or contracts, the agent MUST immediately re-evaluate the architecture and AUTOMATICALLY modify and update the repository's `README.md`, this `GEMINI.md`, and the global architecture diagram (`sat-os-platform-architecture.drawio`) to keep all documentation, operational constraints, and visual topology fully synchronized and truthful.
 
